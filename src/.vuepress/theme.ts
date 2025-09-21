@@ -115,10 +115,10 @@ export default hopeTheme({
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Giscus",
-      repo: "ljk743121/Sound-of-experiment",
-      repoId: "R_kgDONGJnTw",
+      repo: "ljk743121/soeDoc",
+      repoId: "R_kgDOPz68Ig",
       category: "Announcements",
-      categoryId: "DIC_kwDONGJnT84CtpuA",
+      categoryId: "DIC_kwDOPz68Is4Cvs4I",
     },
 
     components: {
