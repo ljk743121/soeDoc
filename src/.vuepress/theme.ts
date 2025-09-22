@@ -19,6 +19,7 @@ export default hopeTheme({
   docsRepo: "ljk743121/soeDoc",
   docsDir: "src",
   docsBranch: "main",
+  changelog: true,
 
   locales: {
     "/": {
@@ -135,6 +136,13 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
+
+    docsearch: {
+      appId: "GZUZZ0YAKT",
+      apiKey: "903f825b79a17871b0cca8af34fc728a",
+      indexName: "voszsy-doc",
+      placeholder: "搜索文档",
+    }
 
     // Install @vuepress/plugin-pwa and uncomment these if you want a PWA
     // pwa: {

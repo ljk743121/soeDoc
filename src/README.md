@@ -15,9 +15,13 @@ actions:
     link: https://github.com/ljk743121/Sound-of-experiment/releases
     type: primary
 
-  - text: 文档
+  - text: 快速开始
     icon: book
     link: ./get-started/
+
+  - text: 可用网址
+    icon: link
+    link: ./sites/
 
 highlights:
   - header: 如何使用
@@ -26,6 +30,7 @@ highlights:
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
       - title: 下载项目源代码，并在项目根目录运行 <code>pnpm install</code> 以安装依赖。
+      - title: 打开<a href="./get-started/">快速开始</a>进行配置
       - title: 在项目根目录下运行 <code>pnpm run dev</code> 以启动开发服务器。
 
   - header: 项目功能

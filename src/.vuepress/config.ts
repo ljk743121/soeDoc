@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics';
 
 import theme from "./theme.js";
 
@@ -15,6 +16,17 @@ export default defineUserConfig({
 
   theme,
 
+  plugins: [
+    baiduAnalyticsPlugin({
+      id: "a591ac9c82f25db246cf2638a700796d",
+    }),
+  ],
+
+  head: [
+    ["meta",
+      { name : "algolia-site-verification", content : "45A00783C983D991" },
+    ],
+  ],
   // Enable it with pwa
   // shouldPrefetch: false,
 });
