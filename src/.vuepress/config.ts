@@ -4,7 +4,7 @@ import { baiduAnalyticsPlugin } from '@vuepress/plugin-baidu-analytics';
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/soeDoc/",
 
   locales: {
     "/": {
